@@ -63,7 +63,7 @@ class InternetSpeedTwitterBot:
                                                            'div/div[2]/div/div[2]/div[1]/div/div/div/div[2]/div[1]/div/'
                                                            'div/div/div/div/div/div/div/div/div[1]/div/div/div/div[2]/'
                                                            'div/div/div/div')
-        tweet = f"Hey Mais Fibra, why is my internet speed {self.down}down/{self.up}up when I pay for {PROMISED_DOWN}" \
+        tweet = f"Hey YOUR INTERNET PROVIDER, why is my internet speed {self.down}down/{self.up}up when I pay for {PROMISED_DOWN}" \
                 f"down/{PROMISED_UP}up?"
 
         tweet_compose.send_keys(tweet)

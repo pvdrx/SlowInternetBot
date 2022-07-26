@@ -5,9 +5,9 @@ from time import sleep
 
 PROMISED_DOWN = 250
 PROMISED_UP = 250
-CHROME_DRIVER_PATH = "C:\development\chromedriver.exe"
-TWITTER_EMAIL = "jdbd@protonmail.com"
-TWITTER_PASSWORD = "Melo159de"
+CHROME_DRIVER_PATH = "The location of your chrome driver"
+TWITTER_EMAIL = "Your Email"
+TWITTER_PASSWORD = "Your Password"
 s = Service(CHROME_DRIVER_PATH)
 
 
